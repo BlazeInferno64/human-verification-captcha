@@ -2,8 +2,7 @@
 Hello u can use it but plss give credit to us
 
 
-Just Replace The Css Lines In The Above Captcha.html By This  Css Line
-Line1- 
+Just Replace The Css Lines In The Above Captcha.html By This  Css Line-
 
 ```
 <link rel="stylesheet" href="./bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
