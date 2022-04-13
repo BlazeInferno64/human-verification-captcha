@@ -45,6 +45,15 @@ License Click Here
 ```
 </a>
 
+Or Click Here For Offline Version Of The License 
+<a href="./LICENSE">
+
+```
+License Click Here
+
+```
+</a>
+
 
 
 
