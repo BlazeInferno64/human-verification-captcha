@@ -36,4 +36,25 @@ And Paste It Into The Html File By Replacing The Earlier Line
 
 ```
 
+For License Click Here-
+<a href="https://github.com/BlaizingInfernoDragon123/CAPTCHA-verify-form-in-html-and-php-and-javascript-/blob/dee8a5ae2f73d081f7ccf11fc05d2ba4357d3e69/LICENSE">
+
+```
+License Click Here
+
+```
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
