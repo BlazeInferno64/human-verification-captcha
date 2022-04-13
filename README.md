@@ -54,6 +54,13 @@ License Click Here
 ```
 </a>
 
+If u have any issues mail me at ✉ -
+
+<a href="mailto:bibhabbarua@gmail.com">
+```
+BlazingInfernoDragon123@gmail.com
+```
+</a>
 
 
 
