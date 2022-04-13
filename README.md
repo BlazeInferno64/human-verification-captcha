@@ -24,3 +24,16 @@ Line 2-
 <script src="./bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
 ```
+
+And A Gentle Note (reminder) 📝-
+
+```
+Note-
+This Is Just For Offline Version Make It like This By replacing The 
+Above Lines By The Lines Already Present In The Code. The Css
+And Javascript Is Already Provided Just Copy The Above Lines
+And Paste It Into The Html File By Replacing The Earlier Line
+
+```
+
+
