@@ -8,7 +8,7 @@ Just Replace The Css Lines In The Above Captcha.html By This  Css Line-
 <link rel="stylesheet" href="./bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
 
 ```
-
+# The JavaScript Download Link-
 And Replace The Javascript Lines With This Lines Copy it-
 Line 1-
 
@@ -24,6 +24,7 @@ Line 2-
 
 ```
 
+# Note-
 And A Gentle Note (reminder) 📝-
 
 ```
@@ -35,6 +36,7 @@ And Paste It Into The Html File By Replacing The Earlier Line
 
 ```
 
+# View the Licence here-
 For License Click Here-
 <a href="https://github.com/BlaizingInfernoDragon123/CAPTCHA-verify-form-in-html-and-php-and-javascript-/blob/dee8a5ae2f73d081f7ccf11fc05d2ba4357d3e69/LICENSE">
 
@@ -53,6 +55,7 @@ License Click Here
 ```
 </a>
 
+# Email Me If Any Queries 
 If u have any issues mail me at ✉ -
 <a href="mailto:bibhabbarua@gmail.com">
 
