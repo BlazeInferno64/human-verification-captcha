@@ -1,34 +1,19 @@
 # CAPTCHA-verify-form-in-html-and-php-and-javascript-
-Hello u can use it but plss give credit to us-
+Hi there this repository shows a simple example of how much important a secure captcha can provide against bots , it has been 100% effective against malicious spam bots and scammers
+|------------|
 
 # View it live here-
-<a href="https://blaizinginfernodragon123.github.io/CAPTCHA-verify-form-in-html-and-php-and-javascript-and-Css/">
+<a href="https://blaizinginfernodragon123.github.io/human-verification-captcha/">
 
 ```
-Captcha.html
+https://blaizinginfernodragon123.github.io/human-verification-captcha/
+
 ```
 </a>
 
-# The Css Part Download Link-
-Just Replace The Css Lines In The Above Captcha.html By This  Css Line-
 
 ```
 <link rel="stylesheet" href="./bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-```
-# The JavaScript Download Link-
-And Replace The Javascript Lines With This Lines Copy it-
-Line 1-
-
-```
-<script src="./jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-
-```
-
-Line 2-
-
-```
-<script src="./bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
 ```
 
