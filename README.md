@@ -1,80 +1,71 @@
-# CAPTCHA-verify-form-in-html-and-php-and-javascript-
-Hello u can use it but plss give credit to us-
+# human verification captcha 
+Hi there this repository shows a simple example of how much important a secure captcha can provide against bots , it has been 100% effective against malicious spam bots and scammers
+|-----------|
 
-# View it live here-
-<a href="https://blaizinginfernodragon123.github.io/CAPTCHA-verify-form-in-html-and-php-and-javascript-and-Css/">
 
-```
-Captcha.html
-```
-</a>
 
-# The Css Part Download Link-
-Just Replace The Css Lines In The Above Captcha.html By This  Css Line-
+# View it here-
+
+<a href="https://blaizinginfernodragon123.github.io/human-verification-captcha/">
 
 ```
-<link rel="stylesheet" href="./bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-```
-# The JavaScript Download Link-
-And Replace The Javascript Lines With This Lines Copy it-
-Line 1-
-
-```
-<script src="./jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-
-```
-
-Line 2-
-
-```
-<script src="./bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
-```
-
-# Note-
-And A Gentle Note (reminder) 📝-
-
-```
-Note-
-This Is Just For Offline Version Make It like This By replacing The 
-Above Lines By The Lines Already Present In The Code. The Css
-And Javascript Is Already Provided Just Copy The Above Lines
-And Paste It Into The Html File By Replacing The Earlier Line
-
-```
-
-# View the Licence here-
-For License Click Here-
-<a href="https://github.com/BlaizingInfernoDragon123/CAPTCHA-verify-form-in-html-and-php-and-javascript-/blob/dee8a5ae2f73d081f7ccf11fc05d2ba4357d3e69/LICENSE">
-
-```
-License Click Here
-
+https://blaizinginfernodragon123.github.io/https://blaizinginfernodragon123.github.io/human-verification-captcha/
 ```
 </a>
 
-Or Click Here For Offline Version Of The License 
-<a href="./LICENSE">
+# More info-
+
+`
+Meanwhile check this out-
+`
 
 ```
-License Click Here
+Hello everyone thanks for paying a visit 
+to this repository and to the .If you 
+all Have any feedback/issues/bugs 
+feel free to email me at the 
+email address provided in the 
+README.md file or post it in the discussion,
+I would try my best to update it 
+as soon as possible within 4-5days time 
+interval it would be fixed and upgraded 
+to a better version which would improve 
+your experience.Btw Make sure to pay 
+a visit to this repository 
+after 3-4 days time interval 
+to check what has changed,
+If not possible it can be checked 
+after a week. 
+Anyways thanks for reading
+Have a nice day :) 👍
+```
 
+# Check SECURITY.md for more info about security policy or click down in that box-
+
+<a href="./SECURITY.md"> 
+
+```
+Check SECURITY.md for more info or click here.
 ```
 </a>
 
+
+<!--[![leisure]-->
 `
 Fun link.Click Down👇
 `
 
-<a href="https://i.pinimg.com/originals/b2/2a/a2/b22aa22b2f3f55b6468361158d52e2e7.gif">
+<a href="https://i.pinimg.com/originals/b2/2a/a2/b22aa22b2f3f55b6468361158d52e2e7.gif" target="_blank">
 <img src="https://i.pinimg.com/originals/b2/2a/a2/b22aa22b2f3f55b6468361158d52e2e7.gif">
 </a>
 
+<a href="https://p.favim.com/orig/2018/11/05/kawaii-8-bit-gif-Favim.com-6490317.gif" target="_blank">
+<img src="https://wallpapercave.com/uwp/uwp2086260.gif">
+</a>
 
 # My Email For Any Queries-
 - 📫 How to reach me ... you can reach me by mailing me at this email address just click once at the blue colored text - 
-<a href="mailto:blazinginfernodragon123@gmail.com">
+<a href="mailto:blazinginfernodragon123@gmail.com" target="_blank">
 
 ```
 BlazingInfernoDragon123@gmail.com
@@ -85,7 +76,7 @@ BlazingInfernoDragon123@gmail.com
 Want to email directly ?Click Down👇
 `
 
-<a href="mailto:blazinginfernodragon123@gmail.com">
+<a href="mailto:blazinginfernodragon123@gmail.com" target="_blank">
 <img src="https://charityengine.net/wp-content/uploads/2022/05/CE-Icon-_Email-Marketing.svg" style="border-radius:5px" alt="BlaizingInfernoDragon123@gmail.com">
 </a>
 
@@ -94,10 +85,22 @@ Want to email directly ?Click Down👇
 Thank u for reading have a nice day :)
 `
 
+# Visitor count -
+<p align="center"> 
+
+`
+  Visitor count
+`
+<br>
+  <img src="https://profile-counter.glitch.me/blaizinginfernodragon123/count.svg" />
+</p>
+
+![visitors](https://visitor-badge.glitch.me/badge?page_id=blaizinginfernodragon123&left_color=black&right_color=blue)
+
 # Our YouTube Channel Link-
 Our YouTube Channel Link Plss subscribe -
 
-<a href="https://youtube.com/channel/UCsdLD0oB8Ui9EEE9WNSAAug">
+<a href="https://youtube.com/channel/UCsdLD0oB8Ui9EEE9WNSAAug" target="_blank">
 
 ```
 BlazingInfernoDragon123 Channel
@@ -112,7 +115,7 @@ BlazingInfernoDragon123 Channel
 Want to subscribe to our channel directly ?Click Down👇
 `
 
-<a href="https://youtube.com/channel/UCsdLD0oB8Ui9EEE9WNSAAug">
+<a href="https://youtube.com/channel/UCsdLD0oB8Ui9EEE9WNSAAug" target="_blank">
 <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/youtube-subscription-icon.svg" style="border-radius:5px">
 </a>
 
@@ -123,7 +126,7 @@ Want to subscribe to our channel directly ?Click Down👇
 Got any files to show me?Click Down👇
 `
 
-<a href="https://forms.gle/y6YSBnyNvnrhgrKg9">
+<a href="https://forms.gle/y6YSBnyNvnrhgrKg9" target="_blank">
 <img src="https://images.ctfassets.net/lzny33ho1g45/4ODoWVyzgicvbcb6J9ZZZ5/89e33c333afa86e9e2864ba42833a5be/app-tips-google-forms-00-hero.png?w=1520&fm=jpg&q=30&fit=thumb&h=760">
 </a>
 
@@ -136,7 +139,7 @@ Got any files to show me?Click Down👇
 Want to follow me on github?Click Down👇
 `
 
-<a href="https://github.com/blaizinginfernodragon123">
+<a href="https://github.com/blaizinginfernodragon123?tab=following" target="_blank">
 <img src="https://cdn.neow.in/news/images/uploaded/2020/12/1608232185_github_logo_1.jpg" style="border-radius:5px">
 </a>
 
@@ -145,6 +148,6 @@ Want to follow me on github?Click Down👇
 Support me on patreon?Click Down👇
 `
 
-<a href="https://patreon.com/blaizinginfernodragon123">
+<a href="https://patreon.com/blaizinginfernodragon123" target="_blank">
 <img src="https://1.bp.blogspot.com/-7bPYnbDpDMg/YFfPMuFKyyI/AAAAAAAAS6A/8F8MMmMP4AQSACqo1EAshGTQhm0HEaKygCLcBGAsYHQ/s640/76jg.png">
 </a>
