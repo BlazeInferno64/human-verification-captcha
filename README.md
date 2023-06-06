@@ -6,10 +6,10 @@ Hi there this repository shows a simple example of how much important a secure c
 
 # View it here-
 
-<a href="https://blaizinginfernodragon123.github.io/human-verification-captcha/">
+<a href="https://blazeinferno64.github.io/human-verification-captcha/">
 
 ```
-https://blaizinginfernodragon123.github.io/human-verification-captcha/
+https://blazeinferno64.github.io/human-verification-captcha/
 ```
 </a>
 
