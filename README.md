@@ -9,7 +9,7 @@ Hi there this repository shows a simple example of how much important a secure c
 <a href="https://blaizinginfernodragon123.github.io/human-verification-captcha/">
 
 ```
-https://blaizinginfernodragon123.github.io/https://blaizinginfernodragon123.github.io/human-verification-captcha/
+https://blaizinginfernodragon123.github.io/human-verification-captcha/
 ```
 </a>
 
