@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Random Strings in javascript</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: linear-gradient(90deg,rgb(4, 212, 91),74%,rgb(0, 174, 255));
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        input,button{
+            outline: none;
+        }
+        .main{
+            padding: 0 10px;
+        }
+        .card{
+            border: none;
+            box-shadow: 0 10px 20px 0 rgba(0,0,0,.6);
+            padding: 20px 20px;
+            text-align: center;
+            border-radius: .4rem;
+            width: 350px;
+            color: #fff;
+            background: #2a2d2e;
+            animation: pop 1s ease-in-out;
+        }
+        @keyframes pop {
+            0%{
+                transform: scale(0);
+                opacity: 0;
+            }
+            100%{
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+        .text{
+            width: 100%;
+            padding: .7rem 1rem;
+            border:1px solid transparent;
+            border-radius: .4rem;
+            font-size: 1.3rem;
+            transition: all .3s;
+        }
+        .btn{
+            margin-top: .5rem;
+            width: 100%;
+            cursor: pointer;
+            padding: .7rem 1rem;
+            font-size: 1.3rem;
+            border: none;
+            color: #fff;
+            border-radius: .4rem;
+            background: rgb(0, 128, 79);
+            overflow: hidden;
+            position: relative;
+            pointer-events: none;
+            opacity: .75;
+            transition: all .3s;
+            box-shadow: 6px 7px 40px -4px
+        			rgba(0, 0, 0, 0.2);
+        }
+        .btn > span{
+            position: absolute;
+             background: rgba(71, 71, 71, 0.65);
+             transform: translate(-50%, -50%);
+             border-radius: 50%;
+             animation: rippleffect 1s linear infinite;
+        }
+        /*form input:window-inactive ~ .btn{
+            pointer-events: auto;
+            opacity: 1;
+        }*/
+        @keyframes rippleffect {
+            	0% {
+                    height: 0;
+                    width: 0;
+            	}
+            
+            	100% {
+                    height: 500px;
+                    width: 500px;
+            	}
+            }
+            .head{
+                padding: 0px 20px 30px;
+            }
+            .method{
+                border: 3px dashed hsl(0, 0%, 80%);
+                background: hsl(195, 3%, 25%);
+                padding: 10px 10px ;
+                font-size: 18px;
+                width: 100%;
+                border-radius: .4rem;
+            }
+            .info{
+                margin-top: 1.5rem;
+                font-size: 1.2rem;
+            }
+            .code{
+                border: 2px dashed #ccc;
+                margin-top: .7rem;
+                padding: 15px 10px;
+                border-radius: .4rem;
+                font-size: 1.3rem;
+                text-decoration: line-through;
+                word-spacing: 5px;
+            }
+            .text:focus{
+                box-shadow: 0 5px 30px 0 rgba(47, 103, 128, 0.75);
+            }
+            #log{
+                margin-top: 1rem;
+                font-size: 1.1rem;
+                border: 2px dashed #ccc;
+                padding: 10px;
+                border-radius: .4rem;
+            }
+            .blue{
+                background: rgb(88, 88, 250);
+                pointer-events: auto;
+                opacity: 1;
+                width: 100%;
+            }
+            #captcha{
+                word-spacing: 5px;
+            }
+            .cap{
+                animation: pop 1.5s ease-in-out;
+            }
+            @media (max-width: 350px) {
+            .card{
+                width: 330px;
+                overflow: hidden;
+            }
+        }
+        @media (max-width: 330px) {
+            .card{
+                width: 300px;
+            }
+        }
+    </style>
+</head>
+<body onload="generate()">
+    <form action="" id="forms">
+        <div class="card">
+            <div class="cap">
+                <div class="head">
+                    <h2>
+                        Verify that you are a human
+                    </h2>
+                    <br>
+                    <div class="method">
+                        <p>
+                        Enter the captcha below to contiue
+                        </p>
+                    </div>
+                </div>
+                <div class="main">
+                    <input type="text" class="text" placeholder="Enter captcha from below...">
+                    <button class="btn" id="btn">
+                        Verify Captcha
+                    </button>
+                    <div id="log">
+                        Enter the captcha first!
+                    </div>
+                </div>
+                <h4 class="info">
+                    Captcha 
+                </h4>
+                <div class="code">
+                    <p id="captcha">
+                    </p>
+                </div>
+    
+                <button class="btn blue" id="refresh">
+                    Refresh Captcha
+                </button>
+            </div>
+        </div>
+    </form>
+
+    <script>
+        const forms = document.getElementById("forms");
+        const field = document.querySelector(".text");
+        const btn = document.getElementById("btn");
+        const captcha = document.getElementById("captcha");
+        const body = document.querySelector("body");
+        const log = document.getElementById("log");
+        const refBtn = document.getElementById("refresh");
+        
+        refBtn.addEventListener("click",(e) =>{
+            e.preventDefault();
+            log.innerHTML = "Generating New Captcha...";
+            log.style.color = 'white';
+
+            setTimeout(gen,1500);
+
+            function gen(){
+                log.innerHTML = "Done!";
+                log.style.color = 'rgb(201, 245, 9)';
+
+                generate();
+            }
+        })
+        function generate(length){
+            btn.value = "";
+            let unqiuechar = "";
+
+            const randomchar =  "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+            for (let i = 1; i < 6; i++){
+                unqiuechar += randomchar.charAt(
+                    Math.random()*randomchar.length)
+            }
+            captcha.innerHTML = unqiuechar;
+        }
+
+
+        forms.addEventListener("submit",(e) =>{
+
+            log.innerHTML = "Verifying one moment please...";
+            log.style.color = 'white';
+            e.preventDefault();
+            if(field.value === ''|field.value == null){
+                e.preventDefault();
+            }
+            setTimeout(fun,1500);
+            function fun(){
+                if (field.value == captcha.innerHTML){
+                    log.style.color = 'rgb(1, 182, 113)';
+                log.innerHTML="Verified Successfully";
+                generate();
+                setTimeout(load,2000);
+                function load(){
+                    window.location.href = "./response.html";
+                }
+            }
+            else{
+                generate();
+                log.style.color = '#d1245e';
+                log.innerHTML = "Invalid captcha!";
+                console.error("Invalid Captcha!!");
+            }
+            }
+        });
+
+        field.addEventListener("input",(e) =>{
+            if(field.value.length > 0){
+                btn.style.pointerEvents = "auto";
+                btn.style.opacity = "1";
+            }
+            else if (field.value.length <= 0){
+                btn.style.pointerEvents = "none";
+                btn.style.opacity = "0.75";
+            }
+        });
+
+    </script>
+
+    <script>
+const buttons = document.querySelectorAll('.btn')
+
+buttons.forEach(btn => {
+  btn.addEventListener('click', function (e) {
+    let x = e.clientX - e.target.offsetLeft
+    let y = e.clientY - e.target.offsetTop
+    
+    let ripples = document.createElement('span')
+    ripples.style.left = x + 'px'
+    ripples.style.top = y + 'px'
+    this.appendChild(ripples)
+    
+    window.setTimeout(() => {
+      ripples.remove()
+    }, 600)
+  })
+})
+    </script>
+</body>
+</html>

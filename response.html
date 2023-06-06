@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanks for Verifying as a human</title>
+    <style>
+                *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background: linear-gradient(90deg,rgb(4, 212, 91),74%,rgb(0, 174, 255));
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+        .card{
+            border: none;
+            box-shadow: 0 10px 20px 0 rgba(0,0,0,.6);
+            padding: 20px 20px;
+            text-align: center;
+            border-radius: .4rem;
+            width: 350px;
+            color: #fff;
+            background: #2a2d2e;
+            animation: pop 1s ease-in-out;
+        }
+        .header{
+            animation: pop 1.5s ease-in-out;
+        }
+        #status{
+            border: 3px dashed rgb(1, 182, 113);
+            padding: 10px 20px;
+            font-size: 1.2rem;
+            color: rgb(1, 182, 113);
+        }
+        #done{
+            font-size: 1.4rem;
+        }
+        .done{
+            width: 100px;
+            margin-bottom: .5rem;
+        }
+        @keyframes pop {
+            0%{
+                transform: scale(0);
+                opacity: 0;
+            }
+            100%{
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
+        .bck{
+            border: 3px dashed transparent;
+            padding: 10px;
+            color: rgb(1, 182, 113);
+            cursor: pointer;
+            transition: all .5s;
+            border-radius: .5rem;
+            background: #3c3f41;
+        }
+        .bck:hover{
+            background: #3c3f41;
+            border: 3px solid transparent;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <img src="./secure.png" alt="" id="img" class="done">
+            <h3 id="done">
+                Human Verification Successfull!
+            </h3>
+            <br>
+            <h4 id="status">
+                You can now return back!
+            </h4>
+            <br>
+            <br>
+            <a href="./index.html" class="bck">
+                Click here to return
+            </a>
+            <br>
+            <br>
+        </div>
+    </div>
+
+    <script>
+        const img = document.getElementById('img');
+
+        img.addEventListener("contextmenu",(e) =>{
+            e.preventDefault();
+            alert("You have already verified yourself!");
+        })
+    </script>
+</body>
+</html>
