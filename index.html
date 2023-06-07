@@ -78,6 +78,9 @@
             box-shadow: 6px 7px 40px -4px
         			rgba(0, 0, 0, 0.2);
         }
+        .btn:hover{
+            background: hsl(157,100%,20%);
+        }
         .btn > span{
             position: absolute;
              background: rgba(71, 71, 71, 0.65);
@@ -145,6 +148,9 @@
             }
             .cap{
                 animation: pop 1.5s ease-in-out;
+            }
+            .blue:hover{
+               background: hsl(240,94%,61%);
             }
             @media (max-width: 350px) {
             .card{
@@ -292,7 +298,7 @@ buttons.forEach(btn => {
     
     window.setTimeout(() => {
       ripples.remove()
-    }, 750)
+    }, 800)
   })
 })
     </script>
